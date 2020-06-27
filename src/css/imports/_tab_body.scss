@@ -10,13 +10,17 @@
 	display: block;
 }
 
+label {
+	cursor: pointer;
+}
+
 .form__label--text {
-	display: block;
-	margin-bottom: 4px;
 	color: $main_color;
 }
 
 .form__input--text {
+	display: block;
+	margin-top: 4px;
 	margin-bottom: 16px;
 	padding-top: 13px;
 	padding-bottom: 12px;
@@ -118,4 +122,8 @@
 
 .label_link {
 	color: #3989f8;
+
+	&:hover {
+		color: unset;
+	}
 }

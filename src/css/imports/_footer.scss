@@ -20,6 +20,10 @@
 	opacity: 0.4;
 	color: $font_color_white;
 	text-align: right;
+
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .footer__link+.footer__link {
