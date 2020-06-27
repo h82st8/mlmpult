@@ -1,0 +1,27 @@
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 30px;
+}
+
+.footer__copyright {
+	color: $font_color_white;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 18px;
+	opacity: 0.4;
+}
+
+.footer__link {
+	display: block;
+	font-weight: 300;
+	opacity: 0.4;
+	color: $font_color_white;
+	text-align: right;
+}
+
+.footer__link+.footer__link {
+	margin-top: 10px;
+}

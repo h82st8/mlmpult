@@ -1,0 +1,38 @@
+.tab_button__wrap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border-bottom: 2px solid $light_grey;
+}
+
+.tab_button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+	background-color: $form_wrap_background_color;
+	color: $main_color;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.tab_button:first-child {
+	border-top-left-radius: 8px;
+}
+
+.tab_button:last-child {
+	border-top-right-radius: 8px;
+}
+
+.tab_button--active {
+	position: relative;
+}
+
+.tab_button--active::after {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 8px;
+	background-color: $orange;
+}

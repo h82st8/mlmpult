@@ -1,0 +1,120 @@
+.tab_body {
+	display: none;
+	padding: 40px 20px 50px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background-color: $form_wrap_background_color;
+}
+
+.tab_body--active {
+	display: block;
+}
+
+.form__label--text {
+	display: block;
+	margin-bottom: 4px;
+	color: $main_color;
+}
+
+.form__input--text {
+	margin-bottom: 16px;
+	padding-top: 13px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	border: 1px solid $light_grey;
+	border-radius: 4px;
+	line-height: 22px;
+	box-sizing: border-box;
+}
+
+#password {
+	margin-bottom: 8px;
+}
+
+.form__input--checkbox {
+	vertical-align: middle;
+}
+
+.login_button__wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 24px;
+}
+
+.login_button--login {
+	padding: 10px 12px;
+	color: $font_color_white;
+	border-radius: 20px;
+	border: none;
+	background-color: $orange;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.login_button--lost_pass {
+	color: #3989f8;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.or {
+	position: relative;
+	display: block;
+	margin-top: 24px;
+	margin-bottom: 12px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: $light_grey;
+
+	&:before,
+	&::after {
+		position: absolute;
+		content: '';
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		height: 2px;
+		width: 40%;
+		background-color: $light_grey;
+	}
+
+	&:before {
+		left: 0;
+	}
+
+	&::after {
+		right: 0;
+	}
+}
+
+.connect {
+	display: block;
+	padding-top: 11px;
+	padding-bottom: 10px;
+	width: 100%;
+	border: none;
+	border-radius: 4px;
+	background-color: #192956;
+	color: $font_color_white;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.connect img {
+	display: none;
+}
+
+.checkbox__wrap {
+	margin-bottom: 8px;
+	width: 173px;
+}
+
+.label_link {
+	color: #3989f8;
+}

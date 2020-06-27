@@ -1,0 +1,29 @@
+.languages__wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 40px;
+
+	@media (min-width: 769px) {
+		margin-top: 85px;
+	}
+}
+
+.languages__button {
+	margin-bottom: 10px;
+	padding: 7px 12px;
+	background: none;
+	border: none;
+	text-decoration: underline;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	color: $languages__button_color;
+}
+
+.languages__button--active {
+	background-color: $languages__button_background_color__active;
+	color: $main_color;
+	border-radius: 4px;
+	text-decoration: none;
+}

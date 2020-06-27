@@ -1,0 +1,31 @@
+.body {
+	padding: 20px;
+	box-sizing: border-box;
+	background: radial-gradient(closest-side at 50% 50%, #646881 0%, $main_color 100%) 0% 0% no-repeat;
+	font-family: $font;
+	font-weight: 300;
+}
+
+.title {
+	color: $font_color_white;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+.title__text--light {
+	font-weight: 200;
+}
+
+.title__text--extra_bold {
+	font-weight: 800;
+}
+
+button {
+	cursor: pointer;
+}
+
+.common_font {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="27.999" viewBox="0 0 28 27.999">
+  <g id="Group_9299" data-name="Group 9299" transform="translate(0)">
+    <g id="Group_360" data-name="Group 360" transform="translate(3.389)">
+      <g id="Group_9293" data-name="Group 9293" opacity="0.7">
+        <path id="Path_2580" data-name="Path 2580" d="M428.314,150.406a1.357,1.357,0,1,1,.137-1.03,1.359,1.359,0,0,1-.137,1.03" transform="translate(-425.776 -126.474)" fill="#fff"/>
+        <path id="Path_2586" data-name="Path 2586" d="M450.677,111.691a1.357,1.357,0,1,1,.139-1.032,1.359,1.359,0,0,1-.139,1.032" transform="translate(-429.64 -106.261)" fill="#fff"/>
+        <path id="Path_2577" data-name="Path 2577" d="M418.285,120.376a1.36,1.36,0,1,1,1.033.136,1.36,1.36,0,0,1-1.033-.136" transform="translate(-417.597 -114.443)" fill="#fff"/>
+        <path id="Path_2583" data-name="Path 2583" d="M457.005,142.727a1.36,1.36,0,1,1,1.859-.5,1.361,1.361,0,0,1-1.859.5" transform="translate(-437.828 -118.295)" fill="#fff"/>
+        <path id="Path_2576" data-name="Path 2576" d="M425.973,111.694a1.36,1.36,0,1,1,1.855.5,1.36,1.36,0,0,1-1.855-.5" transform="translate(-419.918 -109.647)" fill="#fff"/>
+        <path id="Path_2582" data-name="Path 2582" d="M448.325,150.406a1.357,1.357,0,1,1,.826.636,1.359,1.359,0,0,1-.826-.636" transform="translate(-435.507 -123.089)" fill="#fff"/>
+        <path id="Path_2587" data-name="Path 2587" d="M437,108a1.36,1.36,0,1,1,1.36,1.357A1.36,1.36,0,0,1,437,108" transform="translate(-424.338 -106.64)" fill="#fff"/>
+        <path id="Path_2581" data-name="Path 2581" d="M437,152.7a1.36,1.36,0,1,1,1.36,1.357A1.36,1.36,0,0,1,437,152.7" transform="translate(-431.11 -126.067)" fill="#fff"/>
+      </g>
+      <g id="Group_9294" data-name="Group 9294" transform="translate(0.84 4.137)">
+        <g id="Group_9282" data-name="Group 9282" transform="translate(0 0)">
+          <circle id="Ellipse_55" data-name="Ellipse 55" cx="1.959" cy="1.959" r="1.959" transform="translate(7.815)" fill="#fff"/>
+          <circle id="Ellipse_59" data-name="Ellipse 59" cx="1.959" cy="1.959" r="1.959" transform="translate(15.63 7.815)" fill="#fff"/>
+          <circle id="Ellipse_56" data-name="Ellipse 56" cx="1.959" cy="1.959" r="1.959" transform="translate(7.815 15.629)" fill="#fff"/>
+          <circle id="Ellipse_52" data-name="Ellipse 52" cx="1.959" cy="1.959" r="1.959" transform="translate(0 7.815)" fill="#fff"/>
+          <circle id="Ellipse_57" data-name="Ellipse 57" cx="1.959" cy="1.959" r="1.959" transform="translate(13.341 2.289)" fill="#fff"/>
+          <circle id="Ellipse_58" data-name="Ellipse 58" cx="1.959" cy="1.959" r="1.959" transform="translate(13.341 13.341)" fill="#fff"/>
+          <circle id="Ellipse_54" data-name="Ellipse 54" cx="1.959" cy="1.959" r="1.959" transform="translate(2.289 13.341)" fill="#fff"/>
+          <circle id="Ellipse_53" data-name="Ellipse 53" cx="1.959" cy="1.959" r="1.959" transform="translate(2.289 2.289)" fill="#fff"/>
+        </g>
+        <ellipse id="Ellipse_62" data-name="Ellipse 62" cx="3.473" cy="3.473" rx="3.473" ry="3.473" transform="translate(6.31 6.31)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_9298" data-name="Group 9298" transform="translate(28 9.262) rotate(90)">
+      <g id="Group_9293-2" data-name="Group 9293" transform="translate(0)" opacity="0.7">
+        <path id="Path_2576-2" data-name="Path 2576" d="M.182,2.04a1.36,1.36,0,1,1,1.855.5,1.36,1.36,0,0,1-1.855-.5" transform="translate(0 0.007)" fill="#fff"/>
+        <path id="Path_2582-2" data-name="Path 2582" d="M.182,2.038a1.357,1.357,0,1,1,.826.636,1.359,1.359,0,0,1-.826-.636" transform="translate(6.763 25.28)" fill="#fff"/>
+        <path id="Path_2587-2" data-name="Path 2587" d="M0,1.364A1.36,1.36,0,1,1,1.36,2.72,1.36,1.36,0,0,1,0,1.364" transform="translate(6.789)" fill="#fff"/>
+        <path id="Path_2581-2" data-name="Path 2581" d="M0,1.364A1.36,1.36,0,1,1,1.36,2.72,1.36,1.36,0,0,1,0,1.364" transform="translate(0.018 25.273)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

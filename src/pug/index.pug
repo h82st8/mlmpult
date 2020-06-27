@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		link(rel="stylesheet" href="./css/normalize.min.css")
+		link(rel="stylesheet" href="./css/style.min.css")
+		title MLMPult
+	body.body
+		main.main
+			h1.title.container #[span.title__text--light MLM]#[span.title__text--extra_bold Pult]
+			.form_wrap.container
+				.tab_button__wrap
+					button(data-tab="0").tab_button.tab_button--active Login
+					button(data-tab="1").tab_button Sign up
+				.tab_body__wrap
+					.tab_body.tab_body--active
+						form.form
+							label(for="login_email").form__label--text.common_font Email
+							input(id="login_email" value="maria.schilts@gmail.com").form__input--text
+							label(for="login_password").form__label--text.common_font Password
+							input(id="login_password").form__input--text
+							.checkbox__wrap
+								input(type="checkbox" id="login_checkbox").form__input--checkbox
+								label(for="login_checkbox").form__label--checkbox.common_font Keep me logged in
+						.login_button__wrap
+							button.login_button.login_button--login Log in
+							a(href="#").login_button.login_button--lost_pass Lost your password?
+						span.or or
+						button(type="submit").connect #[img(src="./images/logo-ot.svg", alt="логотип oton.org")]Connect with #[b oton.org]
+					.tab_body
+						form.form
+							label(for="signup_email").form__label--text.common_font Email
+							input(id="signup_email" value="maria.schilts@gmail.com").form__input--text
+							label(for="signup_id").form__label--text.common_font Referral ID
+							input(id="signup_id" value="34266Fdds33").form__input--text
+							label(for="signup_password").form__label--text.common_font Password
+							input(id="signup_password").form__input--text
+							.checkbox__wrap
+								input(type="checkbox" id="signup_checkbox__keep_logged").form__input--checkbox
+								label(for="signup_checkbox__keep_logged").form__label--checkbox.common_font Keep me logged in
+							.checkbox__wrap
+								input(type="checkbox" id="signup_checkbox__accept").form__input--checkbox
+								label(for="signup_checkbox__accept").form__label--checkbox.common_font I accept the #[a(href="").label_link terms of use] and #[a(href="").label_link privacy policy]
+							.login_button__wrap
+								button.login_button.login_button--login Sign up
+			.languages__wrap
+				button(id="en").languages__button.languages__button--active English
+				button(id="de").languages__button Auf Deutsch
+				button(id="ru").languages__button По-русски
+				button(id="pt").languages__button Português
+				button(id="tr").languages__button Türkçe olarak
+		footer.footer
+			span.footer__copyright MLMPuls © 2020
+			.footer__link__wrap
+				a(href="#").footer__link.common_font Privacy Policy
+				a(href="#").footer__link.common_font Terms of Use
+		script(src="./js/script.js")
