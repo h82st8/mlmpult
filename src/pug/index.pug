@@ -20,14 +20,14 @@ html(lang="en")
 							input(id="login_email" value="maria.schilts@gmail.com").form__input--text
 							label(for="login_password").form__label--text.common_font Password
 							input(id="login_password").form__input--text
-							.checkbox__wrap
+							.form__checkbox_wrap
 								input(type="checkbox" id="login_checkbox").form__input--checkbox
 								label(for="login_checkbox").form__label--checkbox.common_font Keep me logged in
 						.login_button__wrap
 							button.login_button.login_button--login Log in
 							a(href="#").login_button.login_button--lost_pass Lost your password?
-						span.or or
-						button(type="submit").connect #[img(src="./images/logo-ot.svg", alt="логотип oton.org")]Connect with #[b oton.org]
+						span.tab_body__or or
+						button(type="submit").tab_body__connect #[img(src="./images/logo-ot.svg", alt="логотип oton.org")]Connect with #[b oton.org]
 					.tab_body
 						form.form
 							label(for="signup_email").form__label--text.common_font Email
@@ -36,12 +36,12 @@ html(lang="en")
 							input(id="signup_id" value="34266Fdds33").form__input--text
 							label(for="signup_password").form__label--text.common_font Password
 							input(id="signup_password").form__input--text
-							.checkbox__wrap
+							.form__checkbox_wrap
 								input(type="checkbox" id="signup_checkbox__keep_logged").form__input--checkbox
 								label(for="signup_checkbox__keep_logged").form__label--checkbox.common_font Keep me logged in
-							.checkbox__wrap
+							.form__checkbox_wrap
 								input(type="checkbox" id="signup_checkbox__accept").form__input--checkbox
-								label(for="signup_checkbox__accept").form__label--checkbox.common_font I accept the #[a(href="").label_link terms of use] and #[a(href="").label_link privacy policy]
+								label(for="signup_checkbox__accept").form__label--checkbox.common_font I accept the #[a(href="").form__label_link terms of use] and #[a(href="").form__label_link privacy policy]
 							.login_button__wrap
 								button.login_button.login_button--login Sign up
 			.languages__wrap

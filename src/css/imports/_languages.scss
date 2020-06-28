@@ -3,10 +3,6 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 40px;
-
-	@media (min-width: 769px) {
-		margin-top: 85px;
-	}
 }
 
 .languages__button {
