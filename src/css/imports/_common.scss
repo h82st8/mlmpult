@@ -1,31 +1,45 @@
-.body {
-	padding: 20px;
-	box-sizing: border-box;
-	background: radial-gradient(closest-side at 50% 50%, #646881 0%, $main_color 100%) 0% 0% no-repeat;
-	font-family: $font;
-	font-weight: 300;
+* {
+  &:focus {
+    outline: none;
+  }
+}
+
+.total_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  background: radial-gradient(closest-side at 50% 50%, #646881 0%, $main_color 100%) 0% 0% no-repeat;
+  font-family: $font;
+  font-weight: 300;
 }
 
 .title {
-	color: $font_color_white;
-	margin-top: 20px;
-	margin-bottom: 16px;
+  color: $font_color_white;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 .title__text--light {
-	font-weight: 200;
+  font-weight: 200;
 }
 
 .title__text--extra_bold {
-	font-weight: 800;
+  font-weight: 800;
+}
+
+.main {
+  flex-grow: 1;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .common_font {
-	font-size: 14px;
-	line-height: 18px;
-	font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
 }

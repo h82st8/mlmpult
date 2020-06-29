@@ -1,129 +1,178 @@
 .tab_body {
-	display: none;
-	padding: 40px 20px 50px;
-	border-bottom-right-radius: 8px;
-	border-bottom-left-radius: 8px;
-	background-color: $form_wrap_background_color;
+  display: none;
+  padding: 40px 20px 50px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: $form_wrap_background_color;
 }
 
 .tab_body--active {
-	display: block;
+  display: block;
 }
 
 label {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .form__label--text {
-	color: $main_color;
+  color: $main_color;
 }
 
 .form__input--text {
-	display: block;
-	margin-top: 4px;
-	margin-bottom: 16px;
-	padding-top: 13px;
-	padding-bottom: 12px;
-	padding-left: 12px;
-	border: 1px solid $light_grey;
-	border-radius: 4px;
-	line-height: 22px;
-	box-sizing: border-box;
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  border: 1px solid $light_grey;
+  border-radius: 4px;
+  line-height: 22px;
+  box-sizing: border-box;
 }
 
 #password {
-	margin-bottom: 8px;
+  margin-bottom: 8px;
 }
+
+// .form__input--checkbox {
+// 	margin-right: 8px;
+// 	vertical-align: middle;
+// }
 
 .form__input--checkbox {
-	margin-right: 8px;
-	vertical-align: middle;
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
+.form__label--checkbox {
+  position: relative;
+  padding-left: 24px;
+}
+
+.form__label--checkbox::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid $light_grey;
+  border-radius: 2px;
+}
+
+.form__input--checkbox:checked+.form__label--checkbox::before {
+  background-image: url(../images/checkbox.svg);
+  background-repeat: no-repeat;
+  background-color: #4A90E2;
+}
+
+.form__input--checkbox:disabled:checked+.form__label--checkbox::before {
+  background-image: url(../images/checkbox_disabled.svg);
+  background-repeat: no-repeat;
+  background-color: $light_grey;
+}
+
+.form__input--checkbox:disabled+.form__label--checkbox::before {
+  background-color: $light_grey;
+}
+
+
+
 .login_button__wrap {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
 }
 
 .login_button--login {
-	padding: 10px 12px;
-	color: $font_color_white;
-	border-radius: 20px;
-	border: none;
-	background-color: $orange;
-	font-size: 18px;
-	line-height: 24px;
-	font-weight: 400;
+  padding: 10px 12px;
+  color: $font_color_white;
+  border-radius: 20px;
+  border: none;
+  background-color: $orange;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .login_button--lost_pass {
-	color: #3989f8;
-	font-size: 12px;
-	line-height: 18px;
-	font-weight: 400;
+  color: #3989f8;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
 .tab_body__or {
-	position: relative;
-	display: block;
-	margin-top: 24px;
-	margin-bottom: 12px;
-	text-align: center;
-	font-size: 16px;
-	line-height: 22px;
-	text-transform: uppercase;
-	color: $light_grey;
+  position: relative;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: $light_grey;
 
-	&:before,
-	&::after {
-		position: absolute;
-		content: '';
-		top: 0;
-		bottom: 0;
-		margin: auto;
-		height: 2px;
-		width: 40%;
-		background-color: $light_grey;
-	}
+  &:before,
+  &::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    width: 40%;
+    background-color: $light_grey;
+  }
 
-	&:before {
-		left: 0;
-	}
+  &:before {
+    left: 0;
+  }
 
-	&::after {
-		right: 0;
-	}
+  &::after {
+    right: 0;
+  }
 }
 
 .tab_body__connect {
-	display: block;
-	padding-top: 11px;
-	padding-bottom: 10px;
-	width: 100%;
-	border: none;
-	border-radius: 4px;
-	background-color: #192956;
-	color: $font_color_white;
-	font-size: 16px;
-	line-height: 22px;
+  display: block;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #192956;
+  color: $font_color_white;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .tab_body__connect img {
-	display: none;
+  display: none;
 }
 
 .form__checkbox_wrap {
-	margin-bottom: 8px;
-	width: 173px;
+  margin-bottom: 8px;
 }
 
 .form__label_link {
-	color: #3989f8;
+  color: #3989f8;
 
-	&:hover {
-		color: unset;
-	}
+  &:hover {
+    color: unset;
+  }
 }

@@ -1,80 +1,80 @@
 @media (min-width: 375px) {
-	.form__input--text {
-		width: 270px;
-	}
+  .form__input--text {
+    width: 270px;
+  }
 
-	.tab_body__connect {
-		position: relative;
-	}
+  .tab_body__connect {
+    position: relative;
+  }
 
-	.tab_body__connect img {
-		position: absolute;
-		content: '';
-		top: 0;
-		bottom: 0;
-		left: 12px;
-		display: block;
-		margin: auto;
-		width: 28px;
-		height: 28px;
-	}
+  .tab_body__connect img {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 12px;
+    display: block;
+    margin: auto;
+    width: 28px;
+    height: 28px;
+  }
 }
 
 @media (min-width: 425px) {
-	.form__input--text {
-		width: 320px;
-	}
+  .form__input--text {
+    width: 320px;
+  }
 
-	.login_button--login {
-		padding: 12px 24px;
-		padding-top: 13px;
-		border-radius: 88px;
-	}
+  .login_button--login {
+    padding: 12px 24px;
+    padding-top: 13px;
+    border-radius: 88px;
+  }
 
-	.login_button--lost_pass {
-		font-size: 14px;
-	}
+  .login_button--lost_pass {
+    font-size: 14px;
+  }
 
-	.footer__link {
-		display: inline-block;
-	}
+  .footer__link {
+    display: inline-block;
+  }
 
-	.footer__link+.footer__link {
-		margin-left: 20px;
-	}
+  .footer__link+.footer__link {
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 500px) {
-	.container {
-		width: 440px;
-		margin: auto;
-	}
+  .container {
+    width: 440px;
+    margin: auto;
+  }
 
-	.title {
-		margin-bottom: 16px;
-		font-size: 32px;
-		line-height: 39px;
-	}
+  .title {
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 39px;
+  }
 
-	.tab_button {
-		font-size: 24px;
-		line-height: 28px;
-	}
+  .tab_button {
+    font-size: 24px;
+    line-height: 28px;
+  }
 
-	.tab_body {
-		padding: 32px 60px 50px;
-	}
+  .tab_body {
+    padding: 32px 60px 50px;
+  }
 }
 
 @media (min-width: 585px) {
-	.body {
-		padding: 65px 32px 18px;
-	}
+  .total_wrap {
+    padding: 65px 32px 18px;
+  }
 
-	.languages__wrap {
-		justify-content: center;
-		margin-top: 85px;
-		margin-bottom: 44px;
-	}
+  .languages__wrap {
+    justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 44px;
+  }
 
 }
