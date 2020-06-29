@@ -21,8 +21,8 @@ label {
 .form__input--text {
   display: block;
   margin-top: 4px;
-  margin-bottom: 16px;
-  padding-top: 12px;
+  margin-bottom: 15px;
+  padding-top: 13px;
   padding-bottom: 11px;
   padding-left: 12px;
   border: 1px solid $light_grey;
@@ -33,7 +33,7 @@ label {
 }
 
 .form__input--text_last {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .form__input--checkbox {
@@ -66,7 +66,7 @@ label {
   position: absolute;
   content: '';
   top: 0;
-  left: 0;
+  left: -1px;
   width: 16px;
   height: 16px;
   border: 1px solid $light_grey;
@@ -93,14 +93,16 @@ label {
   background-color: $light_grey;
 }
 
-
-
 .login_button__wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 23px;
+}
+
+.login_button__wrap--login {
+  margin-top: 23px;
 }
 
 .login_button--login {
