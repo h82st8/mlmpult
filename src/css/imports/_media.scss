@@ -1,8 +1,4 @@
 @media (min-width: 375px) {
-  .form__input--text {
-    width: 270px;
-  }
-
   .tab_body__connect {
     position: relative;
   }
@@ -21,9 +17,6 @@
 }
 
 @media (min-width: 425px) {
-  .form__input--text {
-    width: 320px;
-  }
 
   .login_button--login {
     padding: 12px 24px;
@@ -40,6 +33,7 @@
   }
 
   .footer__link+.footer__link {
+    margin-top: 0;
     margin-left: 20px;
   }
 }
@@ -62,7 +56,7 @@
   }
 
   .tab_body {
-    padding: 32px 60px 50px;
+    padding: 32px 60px 40px;
   }
 }
 

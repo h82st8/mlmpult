@@ -20,7 +20,7 @@ html(lang="en")
                 label(for="login_email").form__label--text.common_font Email
                 input(id="login_email" value="maria.schilts@gmail.com").form__input--text
                 label(for="login_password").form__label--text.common_font Password
-                input(id="login_password" type="password").form__input--text
+                input(id="login_password" type="password").form__input--text.form__input--text_last
                 .form__checkbox_wrap
                   input(type="checkbox" id="login_checkbox").form__input--checkbox
                   label(for="login_checkbox").form__label--checkbox.common_font Keep me logged in
@@ -36,7 +36,7 @@ html(lang="en")
                 label(for="signup_id").form__label--text.common_font Referral ID
                 input(id="signup_id" value="34266Fdds33").form__input--text
                 label(for="signup_password").form__label--text.common_font Password
-                input(id="signup_password" type="password").form__input--text
+                input(id="signup_password" type="password").form__input--text.form__input--text_last
                 .form__checkbox_wrap
                   input(type="checkbox" id="signup_checkbox__keep_logged").form__input--checkbox
                   label(for="signup_checkbox__keep_logged").form__label--checkbox.common_font Keep me logged in
@@ -46,7 +46,7 @@ html(lang="en")
                 .login_button__wrap
                   button.login_button.login_button--login Sign up
         .languages__wrap
-          button(id="en").languages__button.languages__button--active English
+          button(id="en").languages__button.languages__button--active In English
           button(id="de").languages__button Auf Deutsch
           button(id="ru").languages__button По-русски
           button(id="pt").languages__button Português

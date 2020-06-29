@@ -22,23 +22,19 @@ label {
   display: block;
   margin-top: 4px;
   margin-bottom: 16px;
-  padding-top: 13px;
-  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-bottom: 11px;
   padding-left: 12px;
   border: 1px solid $light_grey;
   border-radius: 4px;
-  line-height: 22px;
+  width: 100%;
+  line-height: 19px;
   box-sizing: border-box;
 }
 
-#password {
+.form__input--text_last {
   margin-bottom: 8px;
 }
-
-// .form__input--checkbox {
-// 	margin-right: 8px;
-// 	vertical-align: middle;
-// }
 
 .form__input--checkbox {
   position: absolute;
@@ -58,7 +54,12 @@ label {
 
 .form__label--checkbox {
   position: relative;
+  display: block;
   padding-left: 24px;
+
+  &:focus {
+    outline: 1px solid $orange;
+  }
 }
 
 .form__label--checkbox::before {
@@ -70,6 +71,10 @@ label {
   height: 16px;
   border: 1px solid $light_grey;
   border-radius: 2px;
+}
+
+.form__input--checkbox:focus+.form__label--checkbox::before {
+  border: 1px solid $orange;
 }
 
 .form__input--checkbox:checked+.form__label--checkbox::before {
@@ -123,7 +128,7 @@ label {
   margin-bottom: 12px;
   text-align: center;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 19px;
   text-transform: uppercase;
   color: $light_grey;
 
@@ -158,7 +163,7 @@ label {
   background-color: #192956;
   color: $font_color_white;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 19px;
 }
 
 .tab_body__connect img {
@@ -167,6 +172,7 @@ label {
 
 .form__checkbox_wrap {
   margin-bottom: 8px;
+  width: 197px;
 }
 
 .form__label_link {
