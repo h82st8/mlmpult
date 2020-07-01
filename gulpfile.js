@@ -74,7 +74,7 @@ exports.css = css;
 const styles = () => {
   return gulp
     .src(["./src/css/*.sass", "./src/css/*.scss", "!./src/css/**/_**.*"])
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(
       sass({
         errorLogToConsole: true,
@@ -90,7 +90,7 @@ const styles = () => {
     .pipe(rename({
       suffix: ".min"
     }))
-    .pipe(sourcemaps.write("./"))
+    // .pipe(sourcemaps.write("./"))
     .pipe(gulp.dest("./dist/css"))
     .pipe(bwsync.stream());
 };
