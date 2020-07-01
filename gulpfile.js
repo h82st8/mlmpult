@@ -163,7 +163,7 @@ const build = (done) => {
     .pipe(gulp.dest('./dist/css'));
 
   const buildScss = gulp.src(["./src/css/*.sass", "./src/css/*.scss", "!./src/css/**/_**.*"])
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(
       sass({
         errorLogToConsole: true,
@@ -179,7 +179,7 @@ const build = (done) => {
     .pipe(rename({
       suffix: ".min"
     }))
-    .pipe(sourcemaps.write("./"))
+    // .pipe(sourcemaps.write("./"))
     .pipe(gulp.dest("./dist/css"));
 
   const buildJs = gulp.src('./src/js/**/*.js')
