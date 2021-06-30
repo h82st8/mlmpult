@@ -1,4 +1,17 @@
 onload = function () {
+  // --------------------Кнопки языков-------------
+
+  let languages__wrap = document.querySelector(".languages__wrap");
+  languages__wrap.addEventListener("click", function (event) {
+    if (event.target.className === "languages__button") {
+      let languages__button = document.querySelectorAll(".languages__button");
+      for (let i = 0; i < languages__button.length; i++) {
+        languages__button[i].classList.remove("languages__button--active");
+      }
+      event.target.classList.add("languages__button--active");
+    }
+  });
+
   // --------------------Табы----------------------
 
   let tabButton__wrap = document.querySelector(".tab_button__wrap");
@@ -29,19 +42,6 @@ onload = function () {
             .classList.remove("margin_top");
         }
       }
-    }
-  });
-
-  // --------------------Кнопки языков-------------
-
-  let languages__wrap = document.querySelector(".languages__wrap");
-  languages__wrap.addEventListener("click", function (event) {
-    if (event.target.className === "languages__button") {
-      let languages__button = document.querySelectorAll(".languages__button");
-      for (let i = 0; i < languages__button.length; i++) {
-        languages__button[i].classList.remove("languages__button--active");
-      }
-      event.target.classList.add("languages__button--active");
     }
   });
 };
